@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-btn-filled{
+    @apply btn bg-[#38BDF8] hover:bg-[#91dbfb] text-white hover:text-slate-900 border-none
+}
+.secondary-btn-filled{
+    @apply btn bg-transparent hover:bg-[#4ec4ff58] text-[#38BDF8]  border-2 border-[#38BDF8] hover:border-[#38BDF8] rounded-full
+}
+.primary-btn-filled-light{
+    @apply btn bg-slate-900 hover:bg-slate-800 text-white border-none
+}
+.dashboard a.active{
+    color: rgb(15, 203, 255);
+    background-color: rgb(71 85 105);
+}
